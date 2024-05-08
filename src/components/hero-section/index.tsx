@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="w-full h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center">
+    <section className="w-full h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-24">
       <div className="container flex flex-col items-center gap-4">
         <h1 className="text-center text-3xl font-bold leading-tight md:text-5xl lg:leading-[1.1] text-primary">
           Best minimalist UI components

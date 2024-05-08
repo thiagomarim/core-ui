@@ -15,6 +15,9 @@ const config: Config = {
         background_button: "#0F0F0F",
         border_button: "#262626",
       },
+      backgroundImage: {
+        "hero-image": "url('/hero.png')",
+      },
     },
   },
   plugins: [],

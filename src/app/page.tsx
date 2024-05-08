@@ -3,7 +3,7 @@ import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <main className="container">
+    <main>
       <HeroSection />
       <ButtonSection />
     </main>

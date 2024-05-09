@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function GetStarted() {
   return (
-    <section className="container py-24 flex flex-col items-center gap-2">
+    <section className="container py-12 sm:py-24 flex flex-col items-center gap-2">
       <h3 className="text-xl font-semibold text-center md:text-2xl text-primary">
         Don’t spend this chance!
       </h3>

@@ -27,7 +27,7 @@ export default function ComponentSection() {
         </CardIntro>
       </div>
 
-      <div className="py-24">
+      <div className="mt-24">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-2xl font-semibold text-center md:text-3xl text-primary">
             Versatility components

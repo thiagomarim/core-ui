@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Clean UI",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={GeistSans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

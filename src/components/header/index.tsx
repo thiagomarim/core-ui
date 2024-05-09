@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 
-const NAV_LINKS = [
+export const NAV_LINKS = [
   {
     name: "Docs",
     href: "/docs",

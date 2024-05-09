@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function TechnologiesSection() {
   return (
-    <section className="container flex flex-col items-center py-24">
+    <section className="container flex flex-col items-center pb-24">
       <div className="max-w-[592px] border-t border-[#262626]">
         <p className="text-center text-lg font-light text-secondary mt-6">
           Various technologies and tools were used to achieve our objective,
-          being as minimalist as possible, and delivering a better design
+          being as minimalist as possible, and giving a better design
         </p>
         <div className="flex items-center justify-center gap-10 mt-6">
           <Image

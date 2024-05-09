@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ComponentSection() {
   return (
-    <section className="container flex flex-col py-24">
+    <section className="container flex flex-col py-12 sm:py-24">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-2xl font-semibold text-center md:text-3xl text-primary">
           Minimalist components for your project
@@ -16,7 +16,7 @@ export default function ComponentSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
         <CardIntro name="Default">
           <Link href="docs">
             <Button>Get Start</Button>
@@ -34,7 +34,7 @@ export default function ComponentSection() {
         </CardIntro>
       </div>
 
-      <div className="mt-24">
+      <div className="mt-12 sm:mt-24">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-2xl font-semibold text-center md:text-3xl text-primary">
             Versatility components
@@ -45,7 +45,7 @@ export default function ComponentSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
           <CardIntro>
             <Button className="flex items-center gap-2" size={"default"}>
               <FaGithub size={18} />

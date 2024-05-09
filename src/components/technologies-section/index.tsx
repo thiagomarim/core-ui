@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TechnologiesSection() {
   return (
-    <section className="container flex flex-col items-center pb-24">
+    <section className="container flex flex-col items-center pb-12 sm:pb-24">
       <div className="max-w-[592px] border-t border-[#262626]">
         <p className="text-center text-lg font-light text-secondary mt-6">
           Various technologies and tools were used to achieve our objective,

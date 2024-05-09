@@ -19,8 +19,8 @@ export default function Footer() {
   const path = usePathname();
 
   return (
-    <footer className="py-16 container flex items-center justify-between">
-      <span className="font-light text-secondary">
+    <footer className="py-16 container flex flex-wrap items-center justify-center sm:justify-between gap-4">
+      <span className="font-light text-secondary text-center sm:text-start">
         Built by Thiago Soares Marim. The source code is available on{" "}
         <a
           href="https://github.com/thiagomarim/core-ui"

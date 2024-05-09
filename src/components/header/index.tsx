@@ -22,9 +22,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border_button/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <Link href="/">
-          <span className="hidden font-bold sm:inline-block text-white">
-            clean/ui
-          </span>
+          <span className="font-bold text-white">clean/ui</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm lg:gap-6">
           {NAV_LINKS.map((link) => (
@@ -39,7 +37,11 @@ export default function Header() {
               </span>
             </Link>
           ))}
-          <a href="https://github.com/thiagomarim/core-ui" target="_blank">
+          <a
+            href="https://github.com/thiagomarim/core-ui"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="transition-colors hover:text-primary/80 text-secondary/80">
               Github
             </span>

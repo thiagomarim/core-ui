@@ -8,7 +8,7 @@ export default function TechnologiesSection() {
           Various technologies and tools were used to achieve our objective,
           being as minimalist as possible, and giving a better design
         </p>
-        <div className="flex items-center justify-center gap-10 mt-6">
+        <div className="flex items-center flex-wrap justify-center gap-4 sm:gap-10 mt-6">
           <Image
             src="/technologies/next.svg"
             width={87}

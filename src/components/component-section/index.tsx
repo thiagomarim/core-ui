@@ -2,6 +2,7 @@ import { Button } from "../ui/button";
 import CardIntro from "../card-intro";
 import { FaGithub } from "react-icons/fa";
 import { ChevronRight, Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function ComponentSection() {
   return (
@@ -17,13 +18,19 @@ export default function ComponentSection() {
 
       <div className="grid grid-cols-3 gap-4 mt-6">
         <CardIntro name="Default">
-          <Button>Get Start</Button>
+          <Link href="docs">
+            <Button>Get Start</Button>
+          </Link>
         </CardIntro>
         <CardIntro name="Secondary">
-          <Button variant={"secondary"}>Get Start</Button>
+          <Link href="docs">
+            <Button variant={"secondary"}>Get Start</Button>
+          </Link>
         </CardIntro>
         <CardIntro name="Outline">
-          <Button variant={"outline"}>Get Start</Button>
+          <Link href="docs">
+            <Button variant={"outline"}>Get Start</Button>
+          </Link>
         </CardIntro>
       </div>
 
@@ -42,7 +49,13 @@ export default function ComponentSection() {
           <CardIntro>
             <Button className="flex items-center gap-2" size={"default"}>
               <FaGithub size={18} />
-              Github
+              <a
+                href="https://github.com/thiagomarim/core-ui"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </Button>
           </CardIntro>
           <CardIntro>

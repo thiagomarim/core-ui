@@ -22,7 +22,12 @@ export default function Footer() {
     <footer className="py-16 container flex items-center justify-between">
       <span className="font-light text-secondary">
         Built by Thiago Soares Marim. The source code is available on{" "}
-        <a href="#" className="underline">
+        <a
+          href="https://github.com/thiagomarim/core-ui"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-primary transition-colors"
+        >
           GitHub
         </a>
         .

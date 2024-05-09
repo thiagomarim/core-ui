@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function GetStarted() {
   return (
@@ -11,10 +12,12 @@ export default function GetStarted() {
         Dont miss this chance to speed up the development of your website and
         make it minimalist is the goal
       </p>
-      <Button className="mt-2 flex items-center gap-1" variant={"outline"}>
-        Get Started
-        <ChevronRight size={17} />
-      </Button>
+      <Link href="docs">
+        <Button className="mt-2 flex items-center gap-1" variant={"outline"}>
+          Get Started
+          <ChevronRight size={17} />
+        </Button>
+      </Link>
     </section>
   );
 }
